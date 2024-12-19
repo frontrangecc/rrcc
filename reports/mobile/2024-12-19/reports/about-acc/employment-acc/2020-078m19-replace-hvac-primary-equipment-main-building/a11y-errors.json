@@ -1,0 +1,1419 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,0,BUTTON",
+            "selector": "div.sidebar-navigation > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 294,
+              "bottom": 324,
+              "left": 10,
+              "right": 40,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle expandable-nav__expand-toggle--top-level\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "div.sidebar-navigation > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-IMG",
+            "path": "1,HTML,1,BODY,16,IMG",
+            "selector": "body.layout-no-sidebars > img",
+            "boundingRect": {
+              "top": 2504,
+              "bottom": 2505,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.layout-no-sidebars > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more about form element labels](https://dequeuniversity.com/rules/axe/4.10/label).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-INPUT",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,DIV,0,FORM,0,DIV,1,INPUT",
+            "selector": "div#block-acc-search > form#search-block-form > div.js-form-type-textfield > input.form-search",
+            "boundingRect": {
+              "top": 48,
+              "bottom": 110,
+              "left": 20,
+              "right": 209,
+              "width": 189,
+              "height": 62
+            },
+            "snippet": "<input class=\"form-search\" type=\"text\" name=\"search_text\" tabindex=\"-1\">",
+            "nodeLabel": "div#block-acc-search > form#search-block-form > div.js-form-type-textfield > input.form-search",
+            "explanation": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.n",
+          "TTv5",
+          "TT5.c",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,2,DIV,0,A",
+            "selector": "div.field-contact__employee > div > div.field_email > a.spamspan",
+            "boundingRect": {
+              "top": 1226,
+              "bottom": 1245,
+              "left": 28,
+              "right": 226,
+              "width": 198,
+              "height": 19
+            },
+            "snippet": "<a href=\"mailto:daniel.hohn@arapahoe.edu\" class=\"spamspan\">",
+            "nodeLabel": "daniel.hohn@arapahoe.edu",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (197.7px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,1,A",
+                  "selector": "div.field-contact > div.field-contact__employee > div > a.department",
+                  "boundingRect": {
+                    "top": 1204,
+                    "bottom": 1225,
+                    "left": 28,
+                    "right": 384,
+                    "width": 356,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"/employees?department=146\" class=\"department\">",
+                  "nodeLabel": "Fiscal Services"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-5-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,3,DIV,0,A",
+                  "selector": "div.field-contact__employee > div > div.field_phone > a",
+                  "boundingRect": {
+                    "top": 1247,
+                    "bottom": 1266,
+                    "left": 28,
+                    "right": 126,
+                    "width": 98,
+                    "height": 19
+                  },
+                  "snippet": "<a href=\"tel:303.797.5753\">",
+                  "nodeLabel": "303.797.5753"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,3,DIV,0,A",
+            "selector": "div.field-contact__employee > div > div.field_phone > a",
+            "boundingRect": {
+              "top": 1247,
+              "bottom": 1266,
+              "left": 28,
+              "right": 126,
+              "width": 98,
+              "height": 19
+            },
+            "snippet": "<a href=\"tel:303.797.5753\">",
+            "nodeLabel": "303.797.5753",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (97.9px by 18.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 23.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,2,DIV,0,A",
+                  "selector": "div.field-contact__employee > div > div.field_email > a.spamspan",
+                  "boundingRect": {
+                    "top": 1226,
+                    "bottom": 1245,
+                    "left": 28,
+                    "right": 226,
+                    "width": 198,
+                    "height": 19
+                  },
+                  "snippet": "<a href=\"mailto:daniel.hohn@arapahoe.edu\" class=\"spamspan\">",
+                  "nodeLabel": "daniel.hohn@arapahoe.edu"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.location > div.location__address > div.field_phone > a",
+            "boundingRect": {
+              "top": 1740,
+              "bottom": 1752,
+              "left": 172,
+              "right": 240,
+              "width": 69,
+              "height": 13
+            },
+            "snippet": "<a href=\"tel:303.797.4222\">",
+            "nodeLabel": "303.797.4222",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-7-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,A",
+                  "selector": "div.location > div.location__address > div.field_email > a",
+                  "boundingRect": {
+                    "top": 1760,
+                    "bottom": 1772,
+                    "left": 138,
+                    "right": 274,
+                    "width": 137,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"mailto:admissions@arapahoe.edu\">",
+                  "nodeLabel": "admissions@arapahoe.edu"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,A",
+            "selector": "div.location > div.location__address > div.field_email > a",
+            "boundingRect": {
+              "top": 1760,
+              "bottom": 1772,
+              "left": 138,
+              "right": 274,
+              "width": 137,
+              "height": 13
+            },
+            "snippet": "<a href=\"mailto:admissions@arapahoe.edu\">",
+            "nodeLabel": "admissions@arapahoe.edu",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (136.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+                  "selector": "div.location > div.location__address > div.field_phone > a",
+                  "boundingRect": {
+                    "top": 1740,
+                    "bottom": 1752,
+                    "left": 172,
+                    "right": 240,
+                    "width": 69,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"tel:303.797.4222\">",
+                  "nodeLabel": "303.797.4222"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.location > div.location__address > div.field_phone > a",
+            "boundingRect": {
+              "top": 1882,
+              "bottom": 1895,
+              "left": 172,
+              "right": 240,
+              "width": 69,
+              "height": 13
+            },
+            "snippet": "<a href=\"tel:303.660.3160\">",
+            "nodeLabel": "303.660.3160",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,A",
+                  "selector": "div.location > div.location__address > div.field_email > a",
+                  "boundingRect": {
+                    "top": 1902,
+                    "bottom": 1914,
+                    "left": 139,
+                    "right": 273,
+                    "width": 134,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"mailto:castle.rock@arapahoe.edu\">",
+                  "nodeLabel": "castle.rock@arapahoe.edu"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,A",
+            "selector": "div.location > div.location__address > div.field_email > a",
+            "boundingRect": {
+              "top": 1902,
+              "bottom": 1914,
+              "left": 139,
+              "right": 273,
+              "width": 134,
+              "height": 13
+            },
+            "snippet": "<a href=\"mailto:castle.rock@arapahoe.edu\">",
+            "nodeLabel": "castle.rock@arapahoe.edu",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (134px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,A",
+                  "selector": "div.location > div.location__address > div.field_phone > a",
+                  "boundingRect": {
+                    "top": 1882,
+                    "bottom": 1895,
+                    "left": 172,
+                    "right": 240,
+                    "width": 69,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"tel:303.660.3160\">",
+                  "nodeLabel": "303.660.3160"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.location > div.location__address > div.field_phone > a",
+            "boundingRect": {
+              "top": 2024,
+              "bottom": 2037,
+              "left": 172,
+              "right": 240,
+              "width": 69,
+              "height": 13
+            },
+            "snippet": "<a href=\"tel:303.734.3853\">",
+            "nodeLabel": "303.734.3853",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (68.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-11-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,A",
+                  "selector": "div.location > div.location__address > div.field_email > a",
+                  "boundingRect": {
+                    "top": 2044,
+                    "bottom": 2056,
+                    "left": 150,
+                    "right": 262,
+                    "width": 113,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"mailto:legacy@arapahoe.edu\">",
+                  "nodeLabel": "legacy@arapahoe.edu"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,A",
+            "selector": "div.location > div.location__address > div.field_email > a",
+            "boundingRect": {
+              "top": 2044,
+              "bottom": 2056,
+              "left": 150,
+              "right": 262,
+              "width": 113,
+              "height": 13
+            },
+            "snippet": "<a href=\"mailto:legacy@arapahoe.edu\">",
+            "nodeLabel": "legacy@arapahoe.edu",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (112.9px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-10-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,2,DIV,0,A",
+                  "selector": "div.location > div.location__address > div.field_phone > a",
+                  "boundingRect": {
+                    "top": 2024,
+                    "bottom": 2037,
+                    "left": 172,
+                    "right": 240,
+                    "width": 69,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"tel:303.734.3853\">",
+                  "nodeLabel": "303.734.3853"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,0,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2092,
+              "bottom": 2104,
+              "left": 133,
+              "right": 279,
+              "width": 147,
+              "height": 13
+            },
+            "snippet": "<a href=\"/about-acc/policies-procedures\" data-drupal-link-system-path=\"node/199\">",
+            "nodeLabel": "ACC Policies & Legal Notices",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (146.9px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2111,
+                    "bottom": 2124,
+                    "left": 159,
+                    "right": 253,
+                    "width": 94,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/sexual-misconduct\" data-drupal-link-system-path=\"node/3395\">",
+                  "nodeLabel": "Sexual Misconduct"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,1,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2111,
+              "bottom": 2124,
+              "left": 159,
+              "right": 253,
+              "width": 94,
+              "height": 13
+            },
+            "snippet": "<a href=\"/advising-support/student-support/sexual-misconduct\" data-drupal-link-system-path=\"node/3395\">",
+            "nodeLabel": "Sexual Misconduct",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (94px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,0,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2092,
+                    "bottom": 2104,
+                    "left": 133,
+                    "right": 279,
+                    "width": 147,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/policies-procedures\" data-drupal-link-system-path=\"node/199\">",
+                  "nodeLabel": "ACC Policies & Legal Notices"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,2,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2131,
+                    "bottom": 2143,
+                    "left": 165,
+                    "right": 247,
+                    "width": 82,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"https://cm.maxient.com/reportingform.php?ArapahoeCC&amp;layout_id=2\">",
+                  "nodeLabel": "Refer a Concern"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,2,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2131,
+              "bottom": 2143,
+              "left": 165,
+              "right": 247,
+              "width": 82,
+              "height": 13
+            },
+            "snippet": "<a href=\"https://cm.maxient.com/reportingform.php?ArapahoeCC&amp;layout_id=2\">",
+            "nodeLabel": "Refer a Concern",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (82.2px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2111,
+                    "bottom": 2124,
+                    "left": 159,
+                    "right": 253,
+                    "width": 94,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/sexual-misconduct\" data-drupal-link-system-path=\"node/3395\">",
+                  "nodeLabel": "Sexual Misconduct"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,3,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2150,
+                    "bottom": 2163,
+                    "left": 135,
+                    "right": 277,
+                    "width": 141,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"https://www.arapahoe.edu/sites/default/files/advising-support/campus-safet…\">",
+                  "nodeLabel": "ACC Annual Security Report"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,3,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2150,
+              "bottom": 2163,
+              "left": 135,
+              "right": 277,
+              "width": 141,
+              "height": 13
+            },
+            "snippet": "<a href=\"https://www.arapahoe.edu/sites/default/files/advising-support/campus-safet…\">",
+            "nodeLabel": "ACC Annual Security Report",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (141.3px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,2,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2131,
+                    "bottom": 2143,
+                    "left": 165,
+                    "right": 247,
+                    "width": 82,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"https://cm.maxient.com/reportingform.php?ArapahoeCC&amp;layout_id=2\">",
+                  "nodeLabel": "Refer a Concern"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,4,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2170,
+                    "bottom": 2182,
+                    "left": 171,
+                    "right": 241,
+                    "width": 70,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/faculty-staff-directory/media-and-press/privacy-policy\" data-drupal-link-system-path=\"node/7667\">",
+                  "nodeLabel": "Privacy Policy"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,4,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2170,
+              "bottom": 2182,
+              "left": 171,
+              "right": 241,
+              "width": 70,
+              "height": 13
+            },
+            "snippet": "<a href=\"/about-acc/faculty-staff-directory/media-and-press/privacy-policy\" data-drupal-link-system-path=\"node/7667\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (69.7px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,3,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2150,
+                    "bottom": 2163,
+                    "left": 135,
+                    "right": 277,
+                    "width": 141,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"https://www.arapahoe.edu/sites/default/files/advising-support/campus-safet…\">",
+                  "nodeLabel": "ACC Annual Security Report"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-17-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,5,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2190,
+                    "bottom": 2202,
+                    "left": 148,
+                    "right": 264,
+                    "width": 116,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/college-leadership/information-about-covid-19/acc-cares\" data-drupal-link-system-path=\"node/7732\">",
+                  "nodeLabel": "ACC HEERF Reporting"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,5,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2190,
+              "bottom": 2202,
+              "left": 148,
+              "right": 264,
+              "width": 116,
+              "height": 13
+            },
+            "snippet": "<a href=\"/about-acc/college-leadership/information-about-covid-19/acc-cares\" data-drupal-link-system-path=\"node/7732\">",
+            "nodeLabel": "ACC HEERF Reporting",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (116.4px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,4,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2170,
+                    "bottom": 2182,
+                    "left": 171,
+                    "right": 241,
+                    "width": 70,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/faculty-staff-directory/media-and-press/privacy-policy\" data-drupal-link-system-path=\"node/7667\">",
+                  "nodeLabel": "Privacy Policy"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-18-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,0,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2237,
+              "bottom": 2250,
+              "left": 97,
+              "right": 315,
+              "width": 219,
+              "height": 13
+            },
+            "snippet": "<a href=\"/about-acc/policies-procedures/accessibility-statement-and-issue-reporting\" data-drupal-link-system-path=\"node/17192\">",
+            "nodeLabel": "Accessibility Statement and Issue Reporting",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (218.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-19-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2257,
+                    "bottom": 2269,
+                    "left": 130,
+                    "right": 282,
+                    "width": 153,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/institutional-research\" data-drupal-link-system-path=\"node/194\">",
+                  "nodeLabel": "Office of Institutional Research"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,1,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2257,
+              "bottom": 2269,
+              "left": 130,
+              "right": 282,
+              "width": 153,
+              "height": 13
+            },
+            "snippet": "<a href=\"/about-acc/institutional-research\" data-drupal-link-system-path=\"node/194\">",
+            "nodeLabel": "Office of Institutional Research",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (152.5px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,0,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2237,
+                    "bottom": 2250,
+                    "left": 97,
+                    "right": 315,
+                    "width": 219,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/policies-procedures/accessibility-statement-and-issue-reporting\" data-drupal-link-system-path=\"node/17192\">",
+                  "nodeLabel": "Accessibility Statement and Issue Reporting"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-20-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,2,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2276,
+                    "bottom": 2289,
+                    "left": 187,
+                    "right": 225,
+                    "width": 39,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/contact\" data-drupal-link-system-path=\"contact\">",
+                  "nodeLabel": "Contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,2,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2276,
+              "bottom": 2289,
+              "left": 187,
+              "right": 225,
+              "width": 39,
+              "height": 13
+            },
+            "snippet": "<a href=\"/contact\" data-drupal-link-system-path=\"contact\">",
+            "nodeLabel": "Contact",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (38.6px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-19-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2257,
+                    "bottom": 2269,
+                    "left": 130,
+                    "right": 282,
+                    "width": 153,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/institutional-research\" data-drupal-link-system-path=\"node/194\">",
+                  "nodeLabel": "Office of Institutional Research"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,3,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2296,
+                    "bottom": 2308,
+                    "left": 156,
+                    "right": 256,
+                    "width": 101,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/employment-acc\" data-drupal-link-system-path=\"node/189\">",
+                  "nodeLabel": "Employment at ACC"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,3,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2296,
+              "bottom": 2308,
+              "left": 156,
+              "right": 256,
+              "width": 101,
+              "height": 13
+            },
+            "snippet": "<a href=\"/about-acc/employment-acc\" data-drupal-link-system-path=\"node/189\">",
+            "nodeLabel": "Employment at ACC",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (100.8px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-20-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,2,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2276,
+                    "bottom": 2289,
+                    "left": 187,
+                    "right": 225,
+                    "width": 39,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/contact\" data-drupal-link-system-path=\"contact\">",
+                  "nodeLabel": "Contact"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-22-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2316,
+                    "bottom": 2328,
+                    "left": 168,
+                    "right": 244,
+                    "width": 75,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+                  "nodeLabel": "Campus Police"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2316,
+              "bottom": 2328,
+              "left": 168,
+              "right": 244,
+              "width": 75,
+              "height": 13
+            },
+            "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+            "nodeLabel": "Campus Police",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (75.3px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,3,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2296,
+                    "bottom": 2308,
+                    "left": 156,
+                    "right": 256,
+                    "width": 101,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/employment-acc\" data-drupal-link-system-path=\"node/189\">",
+                  "nodeLabel": "Employment at ACC"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-23-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,5,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2335,
+                    "bottom": 2348,
+                    "left": 176,
+                    "right": 236,
+                    "width": 60,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"http://help.arapahoe.edu/\">",
+                  "nodeLabel": "IT Helpdesk"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,5,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2335,
+              "bottom": 2348,
+              "left": 176,
+              "right": 236,
+              "width": 60,
+              "height": 13
+            },
+            "snippet": "<a href=\"http://help.arapahoe.edu/\">",
+            "nodeLabel": "IT Helpdesk",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (59.6px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-22-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2316,
+                    "bottom": 2328,
+                    "left": 168,
+                    "right": 244,
+                    "width": 75,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+                  "nodeLabel": "Campus Police"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-24-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,0,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2383,
+              "bottom": 2395,
+              "left": 192,
+              "right": 220,
+              "width": 28,
+              "height": 13
+            },
+            "snippet": "<a href=\"https://arapahoe.elluciancrmrecruit.com/admissions/pages/welcome.aspx\">",
+            "nodeLabel": "Apply",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (28px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-25-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2402,
+                    "bottom": 2415,
+                    "left": 196,
+                    "right": 216,
+                    "width": 21,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/visit-acc\" data-drupal-link-system-path=\"node/225\">",
+                  "nodeLabel": "Visit"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-25-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,1,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2402,
+              "bottom": 2415,
+              "left": 196,
+              "right": 216,
+              "width": 21,
+              "height": 13
+            },
+            "snippet": "<a href=\"/about-acc/visit-acc\" data-drupal-link-system-path=\"node/225\">",
+            "nodeLabel": "Visit",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (21px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-24-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,0,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2383,
+                    "bottom": 2395,
+                    "left": 192,
+                    "right": 220,
+                    "width": 28,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"https://arapahoe.elluciancrmrecruit.com/admissions/pages/welcome.aspx\">",
+                  "nodeLabel": "Apply"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-26-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,2,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2422,
+                    "bottom": 2434,
+                    "left": 135,
+                    "right": 277,
+                    "width": 141,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/locations/campus-maps\" data-drupal-link-system-path=\"node/185\">",
+                  "nodeLabel": "Campus Maps (and parking)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-26-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,2,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2422,
+              "bottom": 2434,
+              "left": 135,
+              "right": 277,
+              "width": 141,
+              "height": 13
+            },
+            "snippet": "<a href=\"/about-acc/locations/campus-maps\" data-drupal-link-system-path=\"node/185\">",
+            "nodeLabel": "Campus Maps (and parking)",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (141.3px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-25-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2402,
+                    "bottom": 2415,
+                    "left": 196,
+                    "right": 216,
+                    "width": 21,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/visit-acc\" data-drupal-link-system-path=\"node/225\">",
+                  "nodeLabel": "Visit"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-27-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,3,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2442,
+                    "bottom": 2454,
+                    "left": 195,
+                    "right": 217,
+                    "width": 22,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/blog\" data-drupal-link-system-path=\"blog\">",
+                  "nodeLabel": "Blog"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-27-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,3,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 2442,
+              "bottom": 2454,
+              "left": 195,
+              "right": 217,
+              "width": 22,
+              "height": 13
+            },
+            "snippet": "<a href=\"/blog\" data-drupal-link-system-path=\"blog\">",
+            "nodeLabel": "Blog",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (22.4px by 12.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-26-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,2,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 2422,
+                    "bottom": 2434,
+                    "left": 135,
+                    "right": 277,
+                    "width": 141,
+                    "height": 13
+                  },
+                  "snippet": "<a href=\"/about-acc/locations/campus-maps\" data-drupal-link-system-path=\"node/185\">",
+                  "nodeLabel": "Campus Maps (and parking)"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 24
+  }
+]
