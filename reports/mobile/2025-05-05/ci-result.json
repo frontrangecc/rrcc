@@ -1,0 +1,1562 @@
+[
+  {
+    "path": "/",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/2020-acc-faculty-virtual-exhibition-registration",
+    "score": 0.82,
+    "performance": 0.8,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/2020-acc-faculty-virtual-exhibition-submission",
+    "score": 0.78,
+    "performance": 0.69,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/2020-colorado-state-teacher-virtual-exhibition-registration",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/2020-colorado-state-teacher-virtual-exhibition-submission",
+    "score": 0.83,
+    "performance": 0.86,
+    "accessibility": 0.88,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/2020-kaleidoscope-submission-information",
+    "score": 0.86,
+    "performance": 0.9,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/2022-dccu",
+    "score": 0.82,
+    "performance": 0.83,
+    "accessibility": 0.87,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/2022-dccu-registration",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/2022-dccu-registration/username",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.92,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/2022-dccu-thank-you",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "best-practices": 0.71,
+    "seo": 0.85
+  },
+  {
+    "path": "/2023-queer-excellence-art-exhibition",
+    "score": 0.86,
+    "performance": 0.92,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/2024hfag",
+    "score": 0.84,
+    "performance": 0.83,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc",
+    "score": 0.81,
+    "performance": 0.78,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/acc-vision-strategic-plan",
+    "score": 0.82,
+    "performance": 0.75,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/acc-vision-strategic-plan/achieving-dream",
+    "score": 0.77,
+    "performance": 0.62,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/accreditation",
+    "score": 0.81,
+    "performance": 0.8,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/college-business-services/institutional-research/data-dictionary",
+    "score": 0.83,
+    "performance": 0.79,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/college-business-services/policies-procedures/ap-4-25-tuition-classification-appeal",
+    "score": 0.81,
+    "performance": 0.78,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/college-leadership",
+    "score": 0.81,
+    "performance": 0.77,
+    "accessibility": 0.8,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/college-leadership/assessment",
+    "score": 0.85,
+    "performance": 0.84,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/college-leadership/information-about-covid-19/acc-cares",
+    "score": 0.8,
+    "performance": 0.77,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/college-leadership/information-about-covid-19/signage-instructions-acc",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/employment-acc",
+    "score": 0.83,
+    "performance": 0.79,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/employment-acc/2020-078m19-replace-hvac-primary-equipment-main-building",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/employment-acc/faculty-and-instructor-qualifications",
+    "score": 0.82,
+    "performance": 0.8,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/employment-acc/work-study",
+    "score": 0.83,
+    "performance": 0.82,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/faculty-staff-directory/media-and-press",
+    "score": 0.85,
+    "performance": 0.84,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/faculty-staff-directory/media-and-press/privacy-policy",
+    "score": 0.85,
+    "performance": 0.84,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/foundation/alumni",
+    "score": 0.73,
+    "performance": 0.67,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.61
+  },
+  {
+    "path": "/about-acc/foundation/board-directors",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/foundation/ways-give",
+    "score": 0.83,
+    "performance": 0.8,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/foundation/ways-give/forever-acc-legacy-society",
+    "score": 0.81,
+    "performance": 0.81,
+    "accessibility": 0.82,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/foundation/ways-give/lift-gift",
+    "score": 0.81,
+    "performance": 0.82,
+    "accessibility": 0.8,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/institutional-research",
+    "score": 0.84,
+    "performance": 0.81,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/institutional-research/hea-disclosure",
+    "score": 0.84,
+    "performance": 0.81,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/institutional-research/institutional-review-board",
+    "score": 0.84,
+    "performance": 0.84,
+    "accessibility": 0.86,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/institutional-research/ir-calendar",
+    "score": 0.82,
+    "performance": 0.77,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/locations",
+    "score": 0.84,
+    "performance": 0.81,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/locations/accs-land-acknowledgement",
+    "score": 0.81,
+    "performance": 0.8,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/locations/campus-maps",
+    "score": 0.83,
+    "performance": 0.82,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/locations/castle-rock",
+    "score": 0.74,
+    "performance": 0.57,
+    "accessibility": 0.8,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/locations/castle-rock/programs-sturm-collaboration-campus",
+    "score": 0.8,
+    "performance": 0.75,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/locations/littleton",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.8,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/locations/littleton/annex-remodel",
+    "score": 0.78,
+    "performance": 0.64,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/locations/lone-tree",
+    "score": 0.81,
+    "performance": 0.77,
+    "accessibility": 0.8,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/locations/online",
+    "score": 0.83,
+    "performance": 0.8,
+    "accessibility": 0.83,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/locations/online/online-education-resources",
+    "score": 0.79,
+    "performance": 0.71,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/policies-procedures",
+    "score": 0.84,
+    "performance": 0.8,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/policies-procedures/ap-0-01-acc-procedure-process",
+    "score": 0.83,
+    "performance": 0.78,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about-acc/policies-procedures/ap-1-40-academic-freedom",
+    "score": 0.81,
+    "performance": 0.77,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/policies-procedures/ap-19-40a-campus-wide-epinephrine-auto-injector-procedure",
+    "score": 0.8,
+    "performance": 0.73,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/policies-procedures/ap-3-10-employment-selection-procedure",
+    "score": 0.81,
+    "performance": 0.77,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/policies-procedures/ap-3-31-evaluation-faculty-job-performance",
+    "score": 0.81,
+    "performance": 0.78,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/policies-procedures/ap-3-31a-evaluation-administrative-professional-and-technical-staff",
+    "score": 0.8,
+    "performance": 0.71,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/policies-procedures/ap-3-60-transitional-retirement-program",
+    "score": 0.82,
+    "performance": 0.79,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/policies-procedures/ap-8-60-delegation-signature-authority",
+    "score": 0.79,
+    "performance": 0.68,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/social-equity-and-belonging-council/inclusive-excellence-resources",
+    "score": 0.79,
+    "performance": 0.7,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about-acc/visit-acc",
+    "score": 0.83,
+    "performance": 0.79,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/academics-programs",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2017-2018/acc-121-accounting-principles-i",
+    "score": 0.85,
+    "performance": 0.91,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2017-2018/bus-115-introduction-business",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2017-2018/cos-141-intermediate-i-chemical-texture",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2017-2018/ems-170-emt-clinical",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2017-2018/eng-285-independent-study",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2017-2018/map-138-medical-assisting-laboratory",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2017-2018/mar-110-introduction-sales",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2018-2019/art-140-color-photography-i",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2018-2019/art-210-marketing-visual-arts",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2018-2019/art-221-drawing-ii",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2018-2019/art-263-ceramics-iv",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2018-2019/com-275-special-topics",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2018-2019/cos-141-intermediate-i-chemical-texture",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2018-2019/jpn-275-special-topics",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2019-2020/art-137-enameling-metal",
+    "score": 0.86,
+    "performance": 0.92,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2019-2020/cng-101-networking-fundamentals",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2019-2020/elt-255-fluid-power",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2019-2020/lea-107-law-enforcement-driving",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2019-2020/mat-275-special-topics",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2019-2020/mte-120-manufacturing-processes",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2019-2020/phi-285-independent-study",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2020-2021/ase-285-independent-study",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2020-2021/edu-261-teaching-learning-and-technology",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2020-2021/ems-234-paramedic-medical-emergencies-lab",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2020-2021/man-117-time-management",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2020-2021/par-208-probate-and-estates",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2020-2021/ped-165-self-defense",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2021-2022/arm-211-methods-leadership-and-management-i",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2021-2022/ase-122-automotive-electrical-safety-systems",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2021-2022/bio-281-internship",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2021-2022/ctc-125-high-speed-data-customer-service",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2021-2022/egg-221-circuit-analysis-i",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2021-2022/mgd-211-adobe-photoshop-ii",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2021-2022/par-114-computers-and-law",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2021-2022/ped-129-zumba",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2022-2023/art-1003-visual-concepts-3-d-design",
+    "score": 0.87,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.79,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2022-2023/cng-2059-enterprise-security",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2022-2023/eng-1022-english-composition-ii-gt-co2",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2022-2023/nur-3001-integration-baccalaureate-nursing-practice",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2022-2023/opt-2035-clinical-procedures-i-w-lab",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2022-2023/par-2075-special-topics",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2022-2023/phy-1105-conceptual-physics-wlab-gt-sc1",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2022-2023/pos-2005-international-relations-gt-ss1",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2023-2024/acc-1015-payroll-accounting",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2023-2024/arm-1012-adventures-leadership-ii",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2023-2024/ece-2088-practicum-early-childhood-education",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2023-2024/egg-1050-engineering-data-analysis",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2023-2024/ems-1062-wilderness-ems-upgrade",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2023-2024/him-4000-revenue-cycle-management-domain-iv",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2023-2024/mls-3140-advanced-urinalysis-and-body-fluids",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2023-2024/nur-2030-transition-professional-nursing-practice",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2024-2025/art-1603-sculpting-figure",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2024-2025/bus-3020-business-law-and-ethics",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2024-2025/csc-3000-advanced-computer-architecture",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2024-2025/ctc-1019-dsl-installation",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2024-2025/elt-2367-introduction-robotics",
+    "score": 0.87,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.79,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2024-2025/gey-1111-physical-geology-wlab-gt-sc1",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2024-2025/hlt-2010-landscape-management",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2024-2025/mus-1020-music-appreciation-gt-ah1",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2025-2026/aec-1100-introduction-design-theory",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2025-2026/bte-1002-keyboarding-applications-i",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2025-2026/eng-2027-poetry-writing",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2025-2026/esa-4020-research-design-emergency-administration",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2025-2026/mus-1063-music-audio-production-i",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2025-2026/nat-2010-advanced-nail-care",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2025-2026/par-2219-e-discovery-and-litigation-technology",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/courses/2025-2026/phi-2050-eastern-wisdom",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2017-2018/anthropology-transfer-major-aa",
+    "score": 0.82,
+    "performance": 0.85,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2017-2018/associate-arts-general",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2017-2018/communication-transfer-major-aa",
+    "score": 0.82,
+    "performance": 0.84,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2017-2018/exercise-health-sciences-personal-trainerfitness-instruction-aas",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2017-2018/medical-office-technology-billing-and-reimbursement-certificate",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2017-2018/paralegal-certificate",
+    "score": 0.84,
+    "performance": 0.9,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2017-2018/pharmacy-technician-certificate",
+    "score": 0.84,
+    "performance": 0.9,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2017-2018/phlebotomy-certificate",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2018-2019/automotive-service-management-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2018-2019/cosmetology-certificate",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2018-2019/engineering-graphics-technologies-mechanical-design-concentration-aas",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2018-2019/mathematics-transfer-major",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2018-2019/medical-assistant-certificate",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2018-2019/nursing-aas",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2018-2019/project-management-certificate",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2018-2019/sound-engineering-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2019-2020/architectural-studies-architecture-technician-aas",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2019-2020/business-administration-general-business-aas",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2019-2020/computer-aided-drafting-interior-design-certificate",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2019-2020/computer-network-technology-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2019-2020/computer-network-technology-cisco-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2019-2020/english-transfer-major-aa",
+    "score": 0.84,
+    "performance": 0.94,
+    "accessibility": 0.9,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2019-2020/esthetics-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2019-2020/psychology-transfer-major",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2020-2021/computer-aided-drafting-interior-design-certificate",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2020-2021/computer-network-technology-general-networking-aas",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2020-2021/cosmetology-and-salon-management-aas",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2020-2021/cosmetology-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2020-2021/criminal-justice-transfer-major-aa",
+    "score": 0.82,
+    "performance": 0.84,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2020-2021/economics-transfer-major-aa",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2020-2021/game-design-and-development-aas",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2020-2021/project-management-certificate",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2021-2022/automotive-service-technology-aas",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2021-2022/business-administration-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2021-2022/business-administration-finance-aas",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2021-2022/computer-information-systems-business-aas",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2021-2022/computer-network-technology-systems-administration-aas",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2021-2022/cosmetology-certificate",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2021-2022/health-information-technology-aas",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2021-2022/retail-management-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2022-2023/applied-technology-aas",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2022-2023/associate-general-studies",
+    "score": 0.83,
+    "performance": 0.89,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2022-2023/game-design-and-development-aas",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2022-2023/interior-design-aas",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2022-2023/law-enforcement-aas",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2022-2023/law-enforcement-academy-certificate",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2022-2023/mortuary-science-aas",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2022-2023/studio-art-transfer-major-aa",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2023-2024/business-administration-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2023-2024/commercial-photography-aas",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2023-2024/computer-science-transfer-major-csu",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2023-2024/cybersecurity-aas",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2023-2024/early-childhood-director-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2023-2024/mechanical-engineering-aes",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2023-2024/music-audio-technology-aas",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2023-2024/residential-kitchen-and-bath-design-specialist-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2024-2025/broadband-customer-care-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2024-2025/business-administration-bas",
+    "score": 0.84,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2024-2025/cosmetology-certificate",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2024-2025/history-transfer-major-aa",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2024-2025/music-business-certificate",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2024-2025/political-science-transfer-major-aa",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2024-2025/practical-nursing-certificate",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2024-2025/psychology-transfer-major-aa",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2025-2026/anthropology-transfer-major-aa",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2025-2026/associate-fine-arts-afa",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2025-2026/cosmetology-and-salon-management-aas",
+    "score": 0.85,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2025-2026/creative-writing-transfer-major-aa",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/catalog/degrees-certificates/2025-2026/health-information-management-bas",
+    "score": 0.84,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.77
+  }
+]
