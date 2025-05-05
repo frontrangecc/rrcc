@@ -1,0 +1,660 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,1,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 568,
+              "bottom": 598,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,2,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 610,
+              "bottom": 640,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,3,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 750,
+              "bottom": 780,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,4,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 820,
+              "bottom": 850,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,5,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 862,
+              "bottom": 892,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,6,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 904,
+              "bottom": 934,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,7,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 946,
+              "bottom": 976,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,8,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 988,
+              "bottom": 1018,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,9,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 1030,
+              "bottom": 1060,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 9
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-IMG",
+            "path": "1,HTML,1,BODY,12,IMG",
+            "selector": "body.layout-no-sidebars > img",
+            "boundingRect": {
+              "top": 1966,
+              "bottom": 1967,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.layout-no-sidebars > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,2,DIV,0,A",
+            "selector": "div.field-contact__employee > div > div.field_email > a.spamspan",
+            "boundingRect": {
+              "top": 852,
+              "bottom": 869,
+              "left": 991,
+              "right": 1205,
+              "width": 213,
+              "height": 17
+            },
+            "snippet": "<a href=\"mailto:terry.barmann@arapahoe.edu\" class=\"spamspan\">",
+            "nodeLabel": "terry.barmann@arapahoe.edu",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (213.4px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-11-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,DIV,1,A",
+                  "selector": "div.field-contact > div.field-contact__employee > div > a.department",
+                  "boundingRect": {
+                    "top": 829,
+                    "bottom": 850,
+                    "left": 991,
+                    "right": 1266,
+                    "width": 275,
+                    "height": 21
+                  },
+                  "snippet": "<a href=\"/employees?department=156\" class=\"department\">",
+                  "nodeLabel": "Institutional Effectiveness"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,1,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 1725,
+              "bottom": 1737,
+              "left": 731,
+              "right": 825,
+              "width": 94,
+              "height": 12
+            },
+            "snippet": "<a href=\"/advising-support/student-support/sexual-misconduct\" data-drupal-link-system-path=\"node/3395\">",
+            "nodeLabel": "Sexual Misconduct",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (93.9px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,2,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 1745,
+                    "bottom": 1757,
+                    "left": 731,
+                    "right": 813,
+                    "width": 82,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"https://cm.maxient.com/reportingform.php?ArapahoeCC&amp;layout_id=2\">",
+                  "nodeLabel": "Refer a Concern"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,2,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 1745,
+              "bottom": 1757,
+              "left": 731,
+              "right": 813,
+              "width": 82,
+              "height": 12
+            },
+            "snippet": "<a href=\"https://cm.maxient.com/reportingform.php?ArapahoeCC&amp;layout_id=2\">",
+            "nodeLabel": "Refer a Concern",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (82.1px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-12-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 1725,
+                    "bottom": 1737,
+                    "left": 731,
+                    "right": 825,
+                    "width": 94,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/sexual-misconduct\" data-drupal-link-system-path=\"node/3395\">",
+                  "nodeLabel": "Sexual Misconduct"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,3,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 1765,
+              "bottom": 1777,
+              "left": 893,
+              "right": 993,
+              "width": 101,
+              "height": 12
+            },
+            "snippet": "<a href=\"/about-acc/employment-acc\" data-drupal-link-system-path=\"node/189\">",
+            "nodeLabel": "Employment at ACC",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (100.7px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 1784,
+                    "bottom": 1796,
+                    "left": 893,
+                    "right": 968,
+                    "width": 75,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+                  "nodeLabel": "Campus Police"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 1784,
+              "bottom": 1796,
+              "left": 893,
+              "right": 968,
+              "width": 75,
+              "height": 12
+            },
+            "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+            "nodeLabel": "Campus Police",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (75.3px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,3,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 1765,
+                    "bottom": 1777,
+                    "left": 893,
+                    "right": 993,
+                    "width": 101,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/about-acc/employment-acc\" data-drupal-link-system-path=\"node/189\">",
+                  "nodeLabel": "Employment at ACC"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,5,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 1804,
+                    "bottom": 1816,
+                    "left": 893,
+                    "right": 952,
+                    "width": 60,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"http://help.arapahoe.edu/\">",
+                  "nodeLabel": "IT Helpdesk"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,5,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 1804,
+              "bottom": 1816,
+              "left": 893,
+              "right": 952,
+              "width": 60,
+              "height": 12
+            },
+            "snippet": "<a href=\"http://help.arapahoe.edu/\">",
+            "nodeLabel": "IT Helpdesk",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (59.5px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 1784,
+                    "bottom": 1796,
+                    "left": 893,
+                    "right": 968,
+                    "width": 75,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+                  "nodeLabel": "Campus Police"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,0,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 1706,
+              "bottom": 1718,
+              "left": 1126,
+              "right": 1154,
+              "width": 28,
+              "height": 12
+            },
+            "snippet": "<a href=\"https://arapahoe.elluciancrmrecruit.com/admissions/pages/welcome.aspx\">",
+            "nodeLabel": "Apply",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (28px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 1725,
+                    "bottom": 1737,
+                    "left": 1126,
+                    "right": 1147,
+                    "width": 21,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/about-acc/visit-acc\" data-drupal-link-system-path=\"node/225\">",
+                  "nodeLabel": "Visit"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-18-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,1,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 1725,
+              "bottom": 1737,
+              "left": 1126,
+              "right": 1147,
+              "width": 21,
+              "height": 12
+            },
+            "snippet": "<a href=\"/about-acc/visit-acc\" data-drupal-link-system-path=\"node/225\">",
+            "nodeLabel": "Visit",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (20.9px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-17-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,0,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 1706,
+                    "bottom": 1718,
+                    "left": 1126,
+                    "right": 1154,
+                    "width": 28,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"https://arapahoe.elluciancrmrecruit.com/admissions/pages/welcome.aspx\">",
+                  "nodeLabel": "Apply"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]

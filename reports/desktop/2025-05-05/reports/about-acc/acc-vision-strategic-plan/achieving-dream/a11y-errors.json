@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,1,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 568,
+              "bottom": 598,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,2,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 610,
+              "bottom": 640,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,3,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 652,
+              "bottom": 682,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,4,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 722,
+              "bottom": 752,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,5,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 820,
+              "bottom": 850,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,6,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 862,
+              "bottom": 892,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,7,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 904,
+              "bottom": 934,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,8,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 946,
+              "bottom": 976,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-BUTTON",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,2,UL,9,LI,0,BUTTON",
+            "selector": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "boundingRect": {
+              "top": 988,
+              "bottom": 1018,
+              "left": 25,
+              "right": 55,
+              "width": 30,
+              "height": 30
+            },
+            "snippet": "<button class=\"expandable-nav__expand-toggle\" role=\"button\" onclick=\"Drupal.behaviors.sidebarNavigationController.toggleExpanded(this)\">",
+            "nodeLabel": "li.expandable-nav > ul > li.expandable-nav > button.expandable-nav__expand-toggle",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 9
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the `alt` attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-IMG",
+            "path": "1,HTML,1,BODY,15,IMG",
+            "selector": "body.layout-no-sidebars > img",
+            "boundingRect": {
+              "top": 6327,
+              "bottom": 6328,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<img src=\"https://data.adxcel-ec2.com/pixel/?ad_log=referer&amp;action=content&amp;pixid=40f…\" width=\"1\" height=\"1\" border=\"0\">",
+            "nodeLabel": "body.layout-no-sidebars > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT7.a",
+          "TT7.b",
+          "EN-301-549",
+          "EN-9.1.1.1",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,4,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 3536,
+              "bottom": 3799,
+              "left": 83,
+              "right": 337,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/tammy-sanders\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,4,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 3536,
+              "bottom": 3799,
+              "left": 393,
+              "right": 647,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/tracy-lawrence\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,4,SECTION,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 3536,
+              "bottom": 3799,
+              "left": 703,
+              "right": 957,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/michele-brown\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,4,SECTION,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 3536,
+              "bottom": 3799,
+              "left": 1013,
+              "right": 1267,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/tanya-brown\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,4,SECTION,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4006,
+              "bottom": 4269,
+              "left": 83,
+              "right": 337,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/lisa-christiansen\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,4,SECTION,0,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4006,
+              "bottom": 4269,
+              "left": 393,
+              "right": 647,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/jess-horning\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,4,SECTION,0,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4006,
+              "bottom": 4269,
+              "left": 703,
+              "right": 957,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/john-mann\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4485,
+              "bottom": 4748,
+              "left": 83,
+              "right": 337,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/julie-beggs\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-18-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4485,
+              "bottom": 4748,
+              "left": 393,
+              "right": 647,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/cheryl-calhoun\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4485,
+              "bottom": 4748,
+              "left": 703,
+              "right": 957,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/stephanie-j-fujii-phd\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4485,
+              "bottom": 4748,
+              "left": 1013,
+              "right": 1267,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/tina-griesheimer\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4955,
+              "bottom": 5218,
+              "left": 83,
+              "right": 337,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/samuel-c-haynes\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,5,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4955,
+              "bottom": 5218,
+              "left": 393,
+              "right": 647,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/angela-johnson\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4955,
+              "bottom": 5218,
+              "left": 703,
+              "right": 957,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/courtney-loehfelm\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-24-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,7,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 4955,
+              "bottom": 5218,
+              "left": 1013,
+              "right": 1267,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/lisa-matye-edwards\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-25-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,8,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 5482,
+              "bottom": 5745,
+              "left": 83,
+              "right": 337,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/bill-mcgreevy\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-26-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,9,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 5482,
+              "bottom": 5745,
+              "left": 393,
+              "right": 647,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/jeff-nesheim\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-27-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,5,MAIN,1,DIV,0,DIV,0,DIV,0,ARTICLE,1,DIV,5,SECTION,1,DIV,10,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.field_employee_reference > div > div.field_image > a",
+            "boundingRect": {
+              "top": 5482,
+              "bottom": 5745,
+              "left": 703,
+              "right": 957,
+              "width": 254,
+              "height": 263
+            },
+            "snippet": "<a href=\"/employees/levi-schroder\">",
+            "nodeLabel": "div.field_employee_reference > div > div.field_image > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag244",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "TTv5",
+          "TT6.a",
+          "EN-301-549",
+          "EN-9.2.4.4",
+          "EN-9.4.1.2",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 18
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-28-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,1,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 6086,
+              "bottom": 6098,
+              "left": 731,
+              "right": 825,
+              "width": 94,
+              "height": 12
+            },
+            "snippet": "<a href=\"/advising-support/student-support/sexual-misconduct\" data-drupal-link-system-path=\"node/3395\">",
+            "nodeLabel": "Sexual Misconduct",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (93.9px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-29-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,2,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 6106,
+                    "bottom": 6118,
+                    "left": 731,
+                    "right": 813,
+                    "width": 82,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"https://cm.maxient.com/reportingform.php?ArapahoeCC&amp;layout_id=2\">",
+                  "nodeLabel": "Refer a Concern"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-29-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,2,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 6106,
+              "bottom": 6118,
+              "left": 731,
+              "right": 813,
+              "width": 82,
+              "height": 12
+            },
+            "snippet": "<a href=\"https://cm.maxient.com/reportingform.php?ArapahoeCC&amp;layout_id=2\">",
+            "nodeLabel": "Refer a Concern",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (82.1px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-28-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,0,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 6086,
+                    "bottom": 6098,
+                    "left": 731,
+                    "right": 825,
+                    "width": 94,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/sexual-misconduct\" data-drupal-link-system-path=\"node/3395\">",
+                  "nodeLabel": "Sexual Misconduct"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-30-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,3,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 6126,
+              "bottom": 6138,
+              "left": 893,
+              "right": 993,
+              "width": 101,
+              "height": 12
+            },
+            "snippet": "<a href=\"/about-acc/employment-acc\" data-drupal-link-system-path=\"node/189\">",
+            "nodeLabel": "Employment at ACC",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (100.7px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-31-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 6145,
+                    "bottom": 6157,
+                    "left": 893,
+                    "right": 968,
+                    "width": 75,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+                  "nodeLabel": "Campus Police"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-31-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 6145,
+              "bottom": 6157,
+              "left": 893,
+              "right": 968,
+              "width": 75,
+              "height": 12
+            },
+            "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+            "nodeLabel": "Campus Police",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (75.3px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-30-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,3,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 6126,
+                    "bottom": 6138,
+                    "left": 893,
+                    "right": 993,
+                    "width": 101,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/about-acc/employment-acc\" data-drupal-link-system-path=\"node/189\">",
+                  "nodeLabel": "Employment at ACC"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-32-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,5,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 6165,
+                    "bottom": 6177,
+                    "left": 893,
+                    "right": 952,
+                    "width": 60,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"http://help.arapahoe.edu/\">",
+                  "nodeLabel": "IT Helpdesk"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-32-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,5,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 6165,
+              "bottom": 6177,
+              "left": 893,
+              "right": 952,
+              "width": 60,
+              "height": 12
+            },
+            "snippet": "<a href=\"http://help.arapahoe.edu/\">",
+            "nodeLabel": "IT Helpdesk",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (59.5px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18.2px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-31-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,1,LI,0,UL,4,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 6145,
+                    "bottom": 6157,
+                    "left": 893,
+                    "right": 968,
+                    "width": 75,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/advising-support/student-support/campus-safety\" data-drupal-link-system-path=\"node/3386\">",
+                  "nodeLabel": "Campus Police"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-33-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,0,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 6067,
+              "bottom": 6079,
+              "left": 1126,
+              "right": 1154,
+              "width": 28,
+              "height": 12
+            },
+            "snippet": "<a href=\"https://arapahoe.elluciancrmrecruit.com/admissions/pages/welcome.aspx\">",
+            "nodeLabel": "Apply",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (28px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-34-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,1,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 6086,
+                    "bottom": 6098,
+                    "left": 1126,
+                    "right": 1147,
+                    "width": 21,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"/about-acc/visit-acc\" data-drupal-link-system-path=\"node/225\">",
+                  "nodeLabel": "Visit"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-34-A",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,1,LI,0,A",
+            "selector": "li > ul > li > a",
+            "boundingRect": {
+              "top": 6086,
+              "bottom": 6098,
+              "left": 1126,
+              "right": 1147,
+              "width": 21,
+              "height": 12
+            },
+            "snippet": "<a href=\"/about-acc/visit-acc\" data-drupal-link-system-path=\"node/225\">",
+            "nodeLabel": "Visit",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (20.9px by 12px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 15.8px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-33-A",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,7,FOOTER,0,DIV,3,NAV,1,UL,2,LI,0,UL,0,LI,0,A",
+                  "selector": "li > ul > li > a",
+                  "boundingRect": {
+                    "top": 6067,
+                    "bottom": 6079,
+                    "left": 1126,
+                    "right": 1154,
+                    "width": 28,
+                    "height": 12
+                  },
+                  "snippet": "<a href=\"https://arapahoe.elluciancrmrecruit.com/admissions/pages/welcome.aspx\">",
+                  "nodeLabel": "Apply"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 7
+  }
+]
